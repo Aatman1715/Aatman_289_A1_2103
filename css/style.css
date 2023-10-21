@@ -1,0 +1,121 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+p {
+    font-family: "Fantasy", "Papyrus", monospace;
+
+}
+
+/* Define styles for the header */
+header {
+    background: linear-gradient(to right, red, white, red);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* Define styles for the navigation menu */
+nav {
+    background: linear-gradient(to right, red, white, red);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the list items in the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content area */
+.main-content {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+img {
+    height: 152px;
+    width: 129px;
+    float: left;
+    word-wrap: normal;
+}
+
+/* Style the sidebar (two columns layout) */
+aside {
+    width: 30%;
+    display: contents;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Style the footer */
+footer {
+    clear: both;
+    background: linear-gradient(to right, red, white, red);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Default styles for all screen sizes */
+
+/* Mobile styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    /* Adjust the layout and styling for mobile devices */
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Specific mobile styles for elements as needed */
+}
+
+/* Tablet styles (768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Adjust the layout and styling for tablet devices */
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Specific tablet styles for elements as needed */
+}
+
+/* Desktop styles (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Adjust the layout and styling for desktop devices */
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Specific desktop styles for elements as needed */
+}
